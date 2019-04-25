@@ -9,7 +9,7 @@ A JavaScript version of the popular game Snake, built from scratch
 5. Beat your own highscore
 
 ### Screenshots
-![alt text](https://github.com/zapateros/snake/blob/master/images/printscreens/snake.png "printscreen snake")
+![alt text](https://github.com/zapateros/snake/blob/master/images/snake.png "printscreen snake")
 
 ### Includes
 - Collision detection
