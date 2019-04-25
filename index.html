@@ -3,20 +3,37 @@
 <head>
 <title>Snake</title>
 <style>
-            body{
-              background-color: #3A3A3A;
-            }
-            canvas{
-              background-color: #fff;
-              display: block;
-              margin: 0 auto;
-              border: solid;
-            }
-        </style>
-</head>
-<body>
+  body{
+    background-color: #F1F1F1;
+    margin: 0px;
+    font-family:Arial;
+  }
 
-  <canvas id="canv" width="600" height="600"></canvas>
-      <script src="snake.js"></script>
-</body>
+  canvas{
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #center_part{
+    background: #27262e;
+    padding: 75px 0px 15px 0px;
+    -webkit-box-shadow: 0px 0px 23px 9px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 0px 23px 9px rgba(0,0,0,0.52);
+    box-shadow: 0px 0px 23px 9px rgba(0,0,0,0.52);
+  }
+</style>
+
+</head>
+  <body>
+    <div style="height:90px; width:100%; ">
+    </div>
+    <div id = "center_part">
+      <canvas id="canv" width="600" height="600"></canvas>
+      <p style="text-align:center;color:#fff">
+        <br>Start with space and use the arrow to </br>feed the snake some nice snacks!
+      </p>
+    </div>
+    <script src="snake.js"></script>
+  </body>
 </html>
